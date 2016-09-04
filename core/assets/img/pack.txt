@@ -1,0 +1,19 @@
+pack.png
+size: 204, 136
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+button_up
+  rotate: false
+  xy: 0, 0
+  size: 204, 68
+  orig: 204, 68
+  offset: 0, 0
+  index: -1
+button_down
+  rotate: false
+  xy: 0, 68
+  size: 204, 68
+  orig: 204, 68
+  offset: 0, 0
+  index: -1

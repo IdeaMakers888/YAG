@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="16" tilewidth="64" tileheight="64" nextobjectid="29">
+ <tileset firstgid="1" name="tileset1" tilewidth="64" tileheight="64" tilecount="80" columns="8">
+  <image source="../img/tileset_platformer_64x64_2.png" width="512" height="640"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="100" height="16">
+  <data encoding="base64" compression="zlib">
+   eJztw0EJAAAIBLB7+7OP/XNZQ2GDTZJRVVVV1aPLU1v1yQUWtjEk
+  </data>
+ </layer>
+ <layer name="Trees2" width="100" height="16">
+  <data encoding="base64" compression="zlib">
+   eJztzjEOQEAURdGJ2Agqo6LD/vflR6aWaPzCOclNXvlKAd4aojGaso9wm6MaLdlHKH20RlvbAH/TZR8AAIAHe3S0zuQv8IULRp8COg==
+  </data>
+ </layer>
+ <layer name="Trees" width="100" height="16">
+  <data encoding="base64" compression="zlib">
+   eJztl9sKgkAQhgfTi84gRSAdtovKiw4X0QPUXb3/AzWTLk67pmKiRvPBB+Wu07K/jeoDgC+2SqEdSB7tokweDvvcqXAtQpKHmzKm9/rMxndojxl+OFcoh85DGce78L7v/Ywa5rlCeXi/Uuz4HF2gAbpEVwVq5fWuNUS9zsmZ98/oPGgvN+j2i1oqY8yDJAsn/i7Y6Dz26AE9QtSfTsa8tGta76kq8DtUP2Sa9YUI3q8uYPemATqEKKMROmZjqob1/RtZz7t0TU/QaSzNm4Gdi1AdPA/PkKD7egD2+zzlQvcaV6xUeT//fa7orelFCC/oP3VHH00vRBBq4gk7KhGY
+  </data>
+ </layer>
+ <objectgroup name="collision_border">
+  <object id="6" x="66" y="72">
+   <polyline points="0,0 2,700 1854,696 6270,696 6270,-8 -2,-8"/>
+  </object>
+  <object id="7" x="64" y="512">
+   <polyline points="0,0 64,0 128,-64 192,0 320,0 256,64 128,128 0,0"/>
+  </object>
+  <object id="8" x="320" y="328">
+   <polyline points="0,0 0,56 128,120 192,120 320,56 320,-8 0,-8"/>
+  </object>
+  <object id="9" x="64" y="320">
+   <polyline points="0,0 64,0 64,64 128,64 128,128"/>
+  </object>
+  <object id="12" x="896" y="576">
+   <polyline points="0,0 0,64 64,64 64,0 0,0"/>
+  </object>
+  <object id="13" x="896" y="256">
+   <polyline points="0,0 128,0 128,64 192,64 192,128 128,128 128,64 0,64 0,0"/>
+  </object>
+  <object id="14" x="832" y="256">
+   <polyline points="0,0 0,64 -128,64 -128,0 0,0"/>
+  </object>
+  <object id="15" x="1024" y="512">
+   <polyline points="0,0 0,64 64,64 64,0 0,0"/>
+  </object>
+  <object id="16" x="1152" y="448">
+   <polyline points="0,0 0,64 64,64 64,0 0,0"/>
+  </object>
+  <object id="17" x="1600" y="512">
+   <polyline points="0,0 64,64 256,64 320,0 0,0"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="player_spawn">
+  <object id="23" x="70" y="705.5" width="61.5" height="61.5"/>
+ </objectgroup>
+</map>

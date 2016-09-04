@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="7" tilewidth="70" tileheight="70" nextobjectid="21">
+ <tileset firstgid="1" name="background" tilewidth="1024" tileheight="512" tilecount="1" columns="0">
+  <tile id="0">
+   <image width="1024" height="512" source="../img/bg_shroom.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="2" name="images" tilewidth="216" tileheight="146" tilecount="219" columns="0">
+  <tile id="0">
+   <image width="216" height="72" source="../mushroom_sprites/bush.png"/>
+  </tile>
+  <tile id="1">
+   <image width="70" height="70" source="../mushroom_sprites/shroomBrownAltLeft.png"/>
+  </tile>
+  <tile id="2">
+   <image width="70" height="70" source="../mushroom_sprites/shroomBrownAltMid.png"/>
+  </tile>
+  <tile id="3">
+   <image width="70" height="70" source="../mushroom_sprites/shroomBrownAltMidAlt.png"/>
+  </tile>
+  <tile id="4">
+   <image width="70" height="70" source="../mushroom_sprites/shroomBrownAltRight.png"/>
+  </tile>
+  <tile id="5">
+   <image width="70" height="70" source="../mushroom_sprites/shroomBrownAltSpotsLeft.png"/>
+  </tile>
+  <tile id="6">
+   <image width="70" height="70" source="../mushroom_sprites/shroomBrownAltSpotsMid.png"/>
+  </tile>
+  <tile id="7">
+   <image width="70" height="70" source="../mushroom_sprites/shroomBrownAltSpotsMidAlt.png"/>
+  </tile>
+  <tile id="8">
+   <image width="70" height="70" source="../mushroom_sprites/shroomBrownAltSpotsRight.png"/>
+  </tile>
+  <tile id="9">
+   <image width="70" height="70" source="../mushroom_sprites/shroomBrownLeft.png"/>
+  </tile>
+  <tile id="10">
+   <image width="70" height="70" source="../mushroom_sprites/shroomBrownMid.png"/>
+  </tile>
+  <tile id="11">
+   <image width="70" height="70" source="../mushroom_sprites/shroomBrownMidAlt.png"/>
+  </tile>
+  <tile id="12">
+   <image width="70" height="70" source="../mushroom_sprites/shroomBrownRight.png"/>
+  </tile>
+  <tile id="13">
+   <image width="70" height="70" source="../mushroom_sprites/shroomBrownSpotsLeft.png"/>
+  </tile>
+  <tile id="14">
+   <image width="70" height="70" source="../mushroom_sprites/shroomBrownSpotsMid.png"/>
+  </tile>
+  <tile id="15">
+   <image width="70" height="70" source="../mushroom_sprites/shroomBrownSpotsMidAlt.png"/>
+  </tile>
+  <tile id="16">
+   <image width="70" height="70" source="../mushroom_sprites/shroomBrownSpotsRight.png"/>
+  </tile>
+  <tile id="17">
+   <image width="70" height="70" source="../mushroom_sprites/shroomRedAltLeft.png"/>
+  </tile>
+  <tile id="18">
+   <image width="70" height="70" source="../mushroom_sprites/shroomRedAltMid.png"/>
+  </tile>
+  <tile id="19">
+   <image width="70" height="70" source="../mushroom_sprites/shroomRedAltMidAlt.png"/>
+  </tile>
+  <tile id="20">
+   <image width="70" height="70" source="../mushroom_sprites/shroomRedAltRight.png"/>
+  </tile>
+  <tile id="21">
+   <image width="70" height="70" source="../mushroom_sprites/shroomRedLeft.png"/>
+  </tile>
+  <tile id="22">
+   <image width="70" height="70" source="../mushroom_sprites/shroomRedMid.png"/>
+  </tile>
+  <tile id="23">
+   <image width="70" height="70" source="../mushroom_sprites/shroomRedMidAlt.png"/>
+  </tile>
+  <tile id="24">
+   <image width="70" height="70" source="../mushroom_sprites/shroomRedRight.png"/>
+  </tile>
+  <tile id="25">
+   <image width="70" height="70" source="../mushroom_sprites/shroomTanAltLeft.png"/>
+  </tile>
+  <tile id="26">
+   <image width="70" height="70" source="../mushroom_sprites/shroomTanAltMid.png"/>
+  </tile>
+  <tile id="27">
+   <image width="70" height="70" source="../mushroom_sprites/shroomTanAltMidAlt.png"/>
+  </tile>
+  <tile id="28">
+   <image width="70" height="70" source="../mushroom_sprites/shroomTanAltRight.png"/>
+  </tile>
+  <tile id="29">
+   <image width="70" height="70" source="../mushroom_sprites/shroomTanLeft.png"/>
+  </tile>
+  <tile id="30">
+   <image width="70" height="70" source="../mushroom_sprites/shroomTanMid.png"/>
+  </tile>
+  <tile id="31">
+   <image width="70" height="70" source="../mushroom_sprites/shroomTanMidAlt.png"/>
+  </tile>
+  <tile id="32">
+   <image width="70" height="70" source="../mushroom_sprites/shroomTanRight.png"/>
+  </tile>
+  <tile id="33">
+   <image width="70" height="70" source="../mushroom_sprites/stem.png"/>
+  </tile>
+  <tile id="34">
+   <image width="70" height="70" source="../mushroom_sprites/stemBase.png"/>
+  </tile>
+  <tile id="35">
+   <image width="70" height="70" source="../mushroom_sprites/stemBaseAlt.png"/>
+  </tile>
+  <tile id="36">
+   <image width="70" height="70" source="../mushroom_sprites/stemCrown.png"/>
+  </tile>
+  <tile id="37">
+   <image width="70" height="70" source="../mushroom_sprites/stemShroom.png"/>
+  </tile>
+  <tile id="38">
+   <image width="70" height="70" source="../mushroom_sprites/stemTop.png"/>
+  </tile>
+  <tile id="39">
+   <image width="70" height="70" source="../mushroom_sprites/stemTopAlt.png"/>
+  </tile>
+  <tile id="40">
+   <image width="70" height="70" source="../mushroom_sprites/stemVine.png"/>
+  </tile>
+  <tile id="41">
+   <image width="70" height="70" source="../mushroom_sprites/tallShroom_brown.png"/>
+  </tile>
+  <tile id="42">
+   <image width="70" height="70" source="../mushroom_sprites/tallShroom_red.png"/>
+  </tile>
+  <tile id="43">
+   <image width="70" height="70" source="../mushroom_sprites/tallShroom_tan.png"/>
+  </tile>
+  <tile id="44">
+   <image width="70" height="70" source="../mushroom_sprites/tinyShroom_brown.png"/>
+  </tile>
+  <tile id="45">
+   <image width="70" height="70" source="../mushroom_sprites/tinyShroom_red.png"/>
+  </tile>
+  <tile id="46">
+   <image width="70" height="70" source="../mushroom_sprites/tinyShroom_tan.png"/>
+  </tile>
+  <tile id="47">
+   <image width="70" height="70" source="../base_pack/box.png"/>
+  </tile>
+  <tile id="48">
+   <image width="70" height="70" source="../base_pack/boxAlt.png"/>
+  </tile>
+  <tile id="49">
+   <image width="70" height="70" source="../base_pack/boxCoin_disabled.png"/>
+  </tile>
+  <tile id="50">
+   <image width="70" height="70" source="../base_pack/boxCoin.png"/>
+  </tile>
+  <tile id="51">
+   <image width="70" height="70" source="../base_pack/boxCoinAlt_disabled.png"/>
+  </tile>
+  <tile id="52">
+   <image width="70" height="70" source="../base_pack/boxCoinAlt.png"/>
+  </tile>
+  <tile id="53">
+   <image width="70" height="70" source="../base_pack/boxEmpty.png"/>
+  </tile>
+  <tile id="54">
+   <image width="70" height="70" source="../base_pack/boxExplosive_disabled.png"/>
+  </tile>
+  <tile id="55">
+   <image width="70" height="70" source="../base_pack/boxExplosive.png"/>
+  </tile>
+  <tile id="56">
+   <image width="70" height="70" source="..//base_pack/boxExplosiveAlt.png"/>
+  </tile>
+  <tile id="57">
+   <image width="70" height="70" source="../base_pack/boxItem_disabled.png"/>
+  </tile>
+  <tile id="58">
+   <image width="70" height="70" source="../base_pack/boxItem.png"/>
+  </tile>
+  <tile id="59">
+   <image width="70" height="70" source="../base_pack/boxItemAlt_disabled.png"/>
+  </tile>
+  <tile id="60">
+   <image width="70" height="70" source="../base_pack/boxItemAlt.png"/>
+  </tile>
+  <tile id="61">
+   <image width="70" height="70" source="../base_pack/boxWarning.png"/>
+  </tile>
+  <tile id="62">
+   <image width="70" height="70" source="../base_pack/brickWall.png"/>
+  </tile>
+  <tile id="63">
+   <image width="70" height="70" source="../base_pack/bridge.png"/>
+  </tile>
+  <tile id="64">
+   <image width="70" height="70" source="../base_pack/bridgeLogs.png"/>
+  </tile>
+  <tile id="65">
+   <image width="70" height="70" source="../base_pack/castle.png"/>
+  </tile>
+  <tile id="66">
+   <image width="70" height="70" source="../base_pack/castleCenter_rounded.png"/>
+  </tile>
+  <tile id="67">
+   <image width="70" height="70" source="../base_pack/castleCenter.png"/>
+  </tile>
+  <tile id="68">
+   <image width="70" height="70" source="../base_pack/castleCliffLeft.png"/>
+  </tile>
+  <tile id="69">
+   <image width="70" height="70" source="../base_pack/castleCliffLeftAlt.png"/>
+  </tile>
+  <tile id="70">
+   <image width="70" height="70" source="../base_pack/castleCliffRight.png"/>
+  </tile>
+  <tile id="71">
+   <image width="70" height="70" source="../base_pack/castleCliffRightAlt.png"/>
+  </tile>
+  <tile id="72">
+   <image width="70" height="70" source="../base_pack/castleHalf.png"/>
+  </tile>
+  <tile id="73">
+   <image width="70" height="70" source="../base_pack/castleHalfLeft.png"/>
+  </tile>
+  <tile id="74">
+   <image width="70" height="70" source="../base_pack/castleHalfMid.png"/>
+  </tile>
+  <tile id="75">
+   <image width="70" height="70" source="../base_pack/castleHalfRight.png"/>
+  </tile>
+  <tile id="76">
+   <image width="70" height="70" source="../base_pack/castleHillLeft.png"/>
+  </tile>
+  <tile id="77">
+   <image width="70" height="70" source="../base_pack/castleHillLeft2.png"/>
+  </tile>
+  <tile id="78">
+   <image width="70" height="70" source="../base_pack/castleHillRight.png"/>
+  </tile>
+  <tile id="79">
+   <image width="70" height="70" source="../base_pack/castleHillRight2.png"/>
+  </tile>
+  <tile id="80">
+   <image width="5" height="22" source="../base_pack/castleLedgeLeft.png"/>
+  </tile>
+  <tile id="81">
+   <image width="5" height="22" source="../base_pack/castleLedgeRight.png"/>
+  </tile>
+  <tile id="82">
+   <image width="70" height="70" source="../base_pack/castleLeft.png"/>
+  </tile>
+  <tile id="83">
+   <image width="70" height="70" source="../base_pack/castleMid.png"/>
+  </tile>
+  <tile id="84">
+   <image width="70" height="70" source="../base_pack/castleRight.png"/>
+  </tile>
+  <tile id="85">
+   <image width="70" height="70" source="../base_pack/dirt.png"/>
+  </tile>
+  <tile id="86">
+   <image width="70" height="70" source="../base_pack/dirtCenter_rounded.png"/>
+  </tile>
+  <tile id="87">
+   <image width="70" height="70" source="../base_pack/dirtCenter.png"/>
+  </tile>
+  <tile id="88">
+   <image width="70" height="70" source="../base_pack/dirtCliffLeft.png"/>
+  </tile>
+  <tile id="89">
+   <image width="70" height="70" source="../base_pack/dirtCliffLeftAlt.png"/>
+  </tile>
+  <tile id="90">
+   <image width="70" height="70" source="../base_pack/dirtCliffRight.png"/>
+  </tile>
+  <tile id="91">
+   <image width="70" height="70" source="../base_pack/dirtCliffRightAlt.png"/>
+  </tile>
+  <tile id="92">
+   <image width="70" height="70" source="../base_pack/dirtHalf.png"/>
+  </tile>
+  <tile id="93">
+   <image width="70" height="70" source="../base_pack/dirtHalfLeft.png"/>
+  </tile>
+  <tile id="94">
+   <image width="70" height="70" source="../base_pack/dirtHalfMid.png"/>
+  </tile>
+  <tile id="95">
+   <image width="70" height="70" source="../base_pack/dirtHalfRight.png"/>
+  </tile>
+  <tile id="96">
+   <image width="70" height="70" source="../base_pack/dirtHillLeft.png"/>
+  </tile>
+  <tile id="97">
+   <image width="70" height="70" source="../base_pack/dirtHillLeft2.png"/>
+  </tile>
+  <tile id="98">
+   <image width="70" height="70" source="../base_pack/dirtHillRight.png"/>
+  </tile>
+  <tile id="99">
+   <image width="70" height="70" source="../base_pack/dirtHillRight2.png"/>
+  </tile>
+  <tile id="100">
+   <image width="5" height="18" source="../base_pack/dirtLedgeLeft.png"/>
+  </tile>
+  <tile id="101">
+   <image width="5" height="18" source="../base_pack/dirtLedgeRight.png"/>
+  </tile>
+  <tile id="102">
+   <image width="70" height="70" source="../base_pack/dirtLeft.png"/>
+  </tile>
+  <tile id="103">
+   <image width="70" height="70" source="../base_pack/dirtMid.png"/>
+  </tile>
+  <tile id="104">
+   <image width="70" height="70" source="../base_pack/dirtRight.png"/>
+  </tile>
+  <tile id="105">
+   <image width="70" height="70" source="../base_pack/door_closedMid.png"/>
+  </tile>
+  <tile id="106">
+   <image width="70" height="70" source="../base_pack/door_closedTop.png"/>
+  </tile>
+  <tile id="107">
+   <image width="70" height="70" source="../base_pack/door_openMid.png"/>
+  </tile>
+  <tile id="108">
+   <image width="70" height="70" source="../base_pack/door_openTop.png"/>
+  </tile>
+  <tile id="109">
+   <image width="70" height="70" source="../base_pack/fence.png"/>
+  </tile>
+  <tile id="110">
+   <image width="70" height="70" source="../base_pack/fenceBroken.png"/>
+  </tile>
+  <tile id="111">
+   <image width="70" height="70" source="../base_pack/grass.png"/>
+  </tile>
+  <tile id="112">
+   <image width="70" height="70" source="../base_pack/grassCenter_rounded.png"/>
+  </tile>
+  <tile id="113">
+   <image width="70" height="70" source="../base_pack/grassCenter.png"/>
+  </tile>
+  <tile id="114">
+   <image width="70" height="70" source="../base_pack/grassCliffLeft.png"/>
+  </tile>
+  <tile id="115">
+   <image width="70" height="70" source="../base_pack/grassCliffLeftAlt.png"/>
+  </tile>
+  <tile id="116">
+   <image width="70" height="70" source="../base_pack/grassCliffRight.png"/>
+  </tile>
+  <tile id="117">
+   <image width="70" height="70" source="../base_pack/grassCliffRightAlt.png"/>
+  </tile>
+  <tile id="118">
+   <image width="70" height="70" source="../base_pack/grassHalf.png"/>
+  </tile>
+  <tile id="119">
+   <image width="70" height="70" source="../base_pack/grassHalfLeft.png"/>
+  </tile>
+  <tile id="120">
+   <image width="70" height="70" source="../base_pack/grassHalfMid.png"/>
+  </tile>
+  <tile id="121">
+   <image width="70" height="70" source="../base_pack/grassHalfRight.png"/>
+  </tile>
+  <tile id="122">
+   <image width="70" height="70" source="../base_pack/grassHillLeft.png"/>
+  </tile>
+  <tile id="123">
+   <image width="70" height="70" source="../base_pack/grassHillLeft2.png"/>
+  </tile>
+  <tile id="124">
+   <image width="70" height="70" source="../base_pack/grassHillRight.png"/>
+  </tile>
+  <tile id="125">
+   <image width="70" height="70" source="../base_pack/grassHillRight2.png"/>
+  </tile>
+  <tile id="126">
+   <image width="5" height="24" source="../base_pack/grassLedgeLeft.png"/>
+  </tile>
+  <tile id="127">
+   <image width="5" height="24" source="../base_pack/grassLedgeRight.png"/>
+  </tile>
+  <tile id="128">
+   <image width="70" height="70" source="../base_pack/grassLeft.png"/>
+  </tile>
+  <tile id="129">
+   <image width="70" height="70" source="../base_pack/grassMid.png"/>
+  </tile>
+  <tile id="130">
+   <image width="70" height="70" source="../base_pack/grassRight.png"/>
+  </tile>
+  <tile id="131">
+   <image width="48" height="146" source="../base_pack/hill_large.png"/>
+  </tile>
+  <tile id="132">
+   <image width="48" height="146" source="../base_pack/hill_largeAlt.png"/>
+  </tile>
+  <tile id="133">
+   <image width="48" height="106" source="../base_pack/hill_small.png"/>
+  </tile>
+  <tile id="134">
+   <image width="48" height="106" source="../base_pack/hill_smallAlt.png"/>
+  </tile>
+  <tile id="135">
+   <image width="70" height="70" source="../base_pack/ladder_mid.png"/>
+  </tile>
+  <tile id="136">
+   <image width="70" height="70" source="../base_pack/ladder_top.png"/>
+  </tile>
+  <tile id="137">
+   <image width="70" height="70" source="../base_pack/liquidLava.png"/>
+  </tile>
+  <tile id="138">
+   <image width="70" height="70" source="../base_pack/liquidLavaTop_mid.png"/>
+  </tile>
+  <tile id="139">
+   <image width="70" height="70" source="../base_pack/liquidLavaTop.png"/>
+  </tile>
+  <tile id="140">
+   <image width="70" height="70" source="../base_pack/liquidWater.png"/>
+  </tile>
+  <tile id="141">
+   <image width="70" height="70" source="../base_pack/liquidWaterTop_mid.png"/>
+  </tile>
+  <tile id="142">
+   <image width="70" height="70" source="../base_pack/liquidWaterTop.png"/>
+  </tile>
+  <tile id="143">
+   <image width="70" height="70" source="../base_pack/lock_blue.png"/>
+  </tile>
+  <tile id="144">
+   <image width="70" height="70" source="../base_pack/lock_green.png"/>
+  </tile>
+  <tile id="145">
+   <image width="70" height="70" source="../base_pack/lock_red.png"/>
+  </tile>
+  <tile id="146">
+   <image width="70" height="70" source="../base_pack/lock_yellow.png"/>
+  </tile>
+  <tile id="147">
+   <image width="70" height="70" source="../base_pack/rockHillLeft.png"/>
+  </tile>
+  <tile id="148">
+   <image width="70" height="70" source="../base_pack/rockHillRight.png"/>
+  </tile>
+  <tile id="149">
+   <image width="70" height="70" source="../base_pack/ropeAttached.png"/>
+  </tile>
+  <tile id="150">
+   <image width="70" height="70" source="../base_pack/ropeHorizontal.png"/>
+  </tile>
+  <tile id="151">
+   <image width="70" height="70" source="../base_pack/ropeVertical.png"/>
+  </tile>
+  <tile id="152">
+   <image width="70" height="70" source="../base_pack/sand.png"/>
+  </tile>
+  <tile id="153">
+   <image width="70" height="70" source="../base_pack/sandCenter_rounded.png"/>
+  </tile>
+  <tile id="154">
+   <image width="70" height="70" source="../base_pack/sandCenter.png"/>
+  </tile>
+  <tile id="155">
+   <image width="70" height="70" source="../base_pack/sandCliffLeft.png"/>
+  </tile>
+  <tile id="156">
+   <image width="70" height="70" source="../base_pack/sandCliffLeftAlt.png"/>
+  </tile>
+  <tile id="157">
+   <image width="70" height="70" source="../base_pack/sandCliffRight.png"/>
+  </tile>
+  <tile id="158">
+   <image width="70" height="70" source="../base_pack/sandCliffRightAlt.png"/>
+  </tile>
+  <tile id="159">
+   <image width="70" height="70" source="../base_pack/sandHalf.png"/>
+  </tile>
+  <tile id="160">
+   <image width="70" height="70" source="../base_pack/sandHalfLeft.png"/>
+  </tile>
+  <tile id="161">
+   <image width="70" height="70" source="../base_pack/sandHalfMid.png"/>
+  </tile>
+  <tile id="162">
+   <image width="70" height="70" source="../base_pack/sandHalfRight.png"/>
+  </tile>
+  <tile id="163">
+   <image width="70" height="70" source="../base_pack/sandHillLeft.png"/>
+  </tile>
+  <tile id="164">
+   <image width="70" height="70" source="../base_pack/sandHillLeft2.png"/>
+  </tile>
+  <tile id="165">
+   <image width="70" height="70" source="../base_pack/sandHillRight.png"/>
+  </tile>
+  <tile id="166">
+   <image width="70" height="70" source="../base_pack/sandHillRight2.png"/>
+  </tile>
+  <tile id="167">
+   <image width="5" height="18" source="../base_pack/sandLedgeLeft.png"/>
+  </tile>
+  <tile id="168">
+   <image width="5" height="18" source="../base_pack/sandLedgeRight.png"/>
+  </tile>
+  <tile id="169">
+   <image width="70" height="70" source="../base_pack/sandLeft.png"/>
+  </tile>
+  <tile id="170">
+   <image width="70" height="70" source="../base_pack/sandMid.png"/>
+  </tile>
+  <tile id="171">
+   <image width="70" height="70" source="../base_pack/sandRight.png"/>
+  </tile>
+  <tile id="172">
+   <image width="70" height="70" source="../base_pack/sign.png"/>
+  </tile>
+  <tile id="173">
+   <image width="70" height="70" source="../base_pack/signExit.png"/>
+  </tile>
+  <tile id="174">
+   <image width="70" height="70" source="../base_pack/signLeft.png"/>
+  </tile>
+  <tile id="175">
+   <image width="70" height="70" source="../base_pack/signRight.png"/>
+  </tile>
+  <tile id="176">
+   <image width="70" height="70" source="../base_pack/snow.png"/>
+  </tile>
+  <tile id="177">
+   <image width="70" height="70" source="../base_pack/snowCenter_rounded.png"/>
+  </tile>
+  <tile id="178">
+   <image width="70" height="70" source="../base_pack/snowCenter.png"/>
+  </tile>
+  <tile id="179">
+   <image width="70" height="70" source="../base_pack/snowCliffLeft.png"/>
+  </tile>
+  <tile id="180">
+   <image width="70" height="70" source="../base_pack/snowCliffLeftAlt.png"/>
+  </tile>
+  <tile id="181">
+   <image width="70" height="70" source="../base_pack/snowCliffRight.png"/>
+  </tile>
+  <tile id="182">
+   <image width="70" height="70" source="../base_pack/snowCliffRightAlt.png"/>
+  </tile>
+  <tile id="183">
+   <image width="70" height="70" source="../base_pack/snowHalf.png"/>
+  </tile>
+  <tile id="184">
+   <image width="70" height="70" source="../base_pack/snowHalfLeft.png"/>
+  </tile>
+  <tile id="185">
+   <image width="70" height="70" source="../base_pack/snowHalfMid.png"/>
+  </tile>
+  <tile id="186">
+   <image width="70" height="70" source="../base_pack/snowHalfRight.png"/>
+  </tile>
+  <tile id="187">
+   <image width="70" height="70" source="../base_pack/snowHillLeft.png"/>
+  </tile>
+  <tile id="188">
+   <image width="70" height="70" source="../base_pack/snowHillLeft2.png"/>
+  </tile>
+  <tile id="189">
+   <image width="70" height="70" source="../base_pack/snowHillRight.png"/>
+  </tile>
+  <tile id="190">
+   <image width="70" height="70" source="../base_pack/snowHillRight2.png"/>
+  </tile>
+  <tile id="191">
+   <image width="5" height="18" source="../base_pack/snowLedgeLeft.png"/>
+  </tile>
+  <tile id="192">
+   <image width="5" height="18" source="../base_pack/snowLedgeRight.png"/>
+  </tile>
+  <tile id="193">
+   <image width="70" height="70" source="../base_pack/snowLeft.png"/>
+  </tile>
+  <tile id="194">
+   <image width="70" height="70" source="../base_pack/snowMid.png"/>
+  </tile>
+  <tile id="195">
+   <image width="70" height="70" source="../base_pack/snowRight.png"/>
+  </tile>
+  <tile id="196">
+   <image width="70" height="70" source="../base_pack/stone.png"/>
+  </tile>
+  <tile id="197">
+   <image width="70" height="70" source="../base_pack/stoneCenter_rounded.png"/>
+  </tile>
+  <tile id="198">
+   <image width="70" height="70" source="../base_pack/stoneCenter.png"/>
+  </tile>
+  <tile id="199">
+   <image width="70" height="70" source="../base_pack/stoneCliffLeft.png"/>
+  </tile>
+  <tile id="200">
+   <image width="70" height="70" source="../base_pack/stoneCliffLeftAlt.png"/>
+  </tile>
+  <tile id="201">
+   <image width="70" height="70" source="../base_pack/stoneCliffRight.png"/>
+  </tile>
+  <tile id="202">
+   <image width="70" height="70" source="../base_pack/stoneCliffRightAlt.png"/>
+  </tile>
+  <tile id="203">
+   <image width="70" height="70" source="../base_pack/stoneHalf.png"/>
+  </tile>
+  <tile id="204">
+   <image width="70" height="70" source="../base_pack/stoneHalfLeft.png"/>
+  </tile>
+  <tile id="205">
+   <image width="70" height="70" source="../base_pack/stoneHalfMid.png"/>
+  </tile>
+  <tile id="206">
+   <image width="70" height="70" source="../base_pack/stoneHalfRight.png"/>
+  </tile>
+  <tile id="207">
+   <image width="70" height="70" source="../base_pack/stoneHillLeft2.png"/>
+  </tile>
+  <tile id="208">
+   <image width="70" height="70" source="../base_pack/stoneHillRight2.png"/>
+  </tile>
+  <tile id="209">
+   <image width="5" height="24" source="../base_pack/stoneLedgeLeft.png"/>
+  </tile>
+  <tile id="210">
+   <image width="5" height="24" source="../base_pack/stoneLedgeRight.png"/>
+  </tile>
+  <tile id="211">
+   <image width="70" height="70" source="../base_pack/stoneLeft.png"/>
+  </tile>
+  <tile id="212">
+   <image width="70" height="70" source="../base_pack/stoneMid.png"/>
+  </tile>
+  <tile id="213">
+   <image width="70" height="70" source="../base_pack/stoneRight.png"/>
+  </tile>
+  <tile id="214">
+   <image width="70" height="70" source="../base_pack/stoneWall.png"/>
+  </tile>
+  <tile id="215">
+   <image width="70" height="70" source="../base_pack/tochLit.png"/>
+  </tile>
+  <tile id="216">
+   <image width="70" height="70" source="../base_pack/tochLit2.png"/>
+  </tile>
+  <tile id="217">
+   <image width="70" height="70" source="../base_pack/torch.png"/>
+  </tile>
+  <tile id="218">
+   <image width="70" height="70" source="../base_pack/window.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="221" name="Player" tilewidth="69" tileheight="94" tilecount="5" columns="0">
+  <tile id="0">
+   <image width="69" height="71" source="../player/p1_duck.png"/>
+  </tile>
+  <tile id="1">
+   <image width="66" height="92" source="../player/p1_front.png"/>
+  </tile>
+  <tile id="2">
+   <image width="69" height="92" source="../player/p1_hurt.png"/>
+  </tile>
+  <tile id="3">
+   <image width="67" height="94" source="../player/p1_jump.png"/>
+  </tile>
+  <tile id="4">
+   <image width="66" height="92" source="../player/p1_stand.png"/>
+  </tile>
+ </tileset>
+ <layer name="Background" width="50" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIKhARiHiT4AB0gABQ==
+  </data>
+ </layer>
+ <layer name="Ground" width="50" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBgUGUYHkADi5gNEOtTyXw7KpmDD2gDsRaamDgQSwCxFJXsmEklc/ABSQbquhkboIc/aAXigTgBiBMZ6O+PjUBcA8RlSGIlQNyMhOvQ9BRgMScOjU8Pf5QCcRMSrgXifhy4GIjrGVD9hY5bsNixCIgXI+ElNPAHAIm2GFw=
+  </data>
+ </layer>
+ <objectgroup name="Player">
+  <object id="19" name="Grenie" type="Player" gid="225" x="3" y="420" width="66" height="92"/>
+  <object id="20" name="Grenie" type="Player" x="13" y="338" width="44" height="81"/>
+ </objectgroup>
+ <layer name="Fence" width="50" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDHfQCcWjYHAAAK+DARM=
+  </data>
+ </layer>
+</map>
